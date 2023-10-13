@@ -142,7 +142,7 @@ while (TRUE) {
   
   geometry_coords <- rotate(geometry_coords, angle_x, 'x')
   geometry_coords <- rotate(geometry_coords, angle_y, 'y')
-  geometrye_coords <- rotate(geometry_coords, angle_z, 'z')
+  geometry_coords <- rotate(geometry_coords, angle_z, 'z')
   
   plot(geometry_coords[, 1], geometry_coords[, 2], type = "n", asp = 1,
        xlim = c(-2, 2), ylim = c(-2, 2), xlab = '', ylab = '')
